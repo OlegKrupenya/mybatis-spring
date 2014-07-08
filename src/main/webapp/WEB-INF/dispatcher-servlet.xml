@@ -14,7 +14,7 @@
         http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
 
 	<context:annotation-config />
-	<context:component-scan base-package="springtest.web" />
+	<context:component-scan base-package="training.web" />
 
 	<bean id="jspViewResolver"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
